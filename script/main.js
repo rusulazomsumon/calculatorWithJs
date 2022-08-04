@@ -12,6 +12,7 @@ function calculator(keyVal){
         screenOn.style.backgroundColor = "#ffffff";    
     }
     
+    //Calculating the string by 
     function answer(){
         var ans = document.getElementById("screen").value;
         var calAns = eval(ans);
